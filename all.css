@@ -221,7 +221,7 @@ table {
   .classic {
     padding: 40px 0px;
   }
-  .classic h2 {
+  .classic h2:first-child {
     font-size: 24px;
     margin-bottom: 24px;
   }
@@ -643,6 +643,7 @@ p {
   padding-bottom: 31px;
   border-bottom: 1px solid #fff;
   margin-bottom: 32px;
+  font-family: 'Noto Sans TC';
 }
 
 .cs span {
